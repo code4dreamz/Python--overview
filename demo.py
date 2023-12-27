@@ -162,15 +162,15 @@
 
 #------------------break and continue ------------------------
 
-students = ["Nav" , "Noor" , "Haruuu" , "Shalzziee"]
-for stu in students:
-    # if stu =="Haruuu":
-    #     break;
-    # print(stu)
+# students = ["Nav" , "Noor" , "Haruuu" , "Shalzziee"]
+# for stu in students:
+#     # if stu =="Haruuu":
+#     #     break;
+#     # print(stu)
 
-    if stu =="Shalzziee":
-        continue;
-    print(stu)
+#     if stu =="Shalzziee":
+#         continue;
+#     print(stu)
 
     
  
