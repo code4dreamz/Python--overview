@@ -172,6 +172,77 @@
 #         continue;
 #     print(stu)
 
+
+#-------------------tuple-----------------
+#similar to list but its immutable (can't change the values)
+
+# marks =(12, 34, 56, 77, 12 , 12)
+# #operations
+# print(marks.count(12))
+# print(marks.index(12))
+
+# person = 'nav' ,'harleen' , 'gurleen'
+# print(person)  #by default acts as tuple no need to use round brackets
+
+#-----------------------sets--------------------
+# collection of unique elements
+#un-ordered
+#indexing dosen't exist in sets
+
+# marks={ 67, 78 ,89, 90 , 90}
+# print(marks)
+# for score in marks:
+#     print(score)
+
+#-----------------------dictionary-------------------
+#similar to sets , store key values as key-value pair
+
+# marks={"English":98, "chemisrty":89}
+# print(marks["chemisrty"])
+# marks["physics"]=87;
+# print(marks)
+
+# marks["physics"]=99;
+# print(marks)
+
+#-----------------functions------------------
+# 1) In built 
+    # int()
+    # str()
+    # bool()
+
+# 2) Moule
+    # math module 
+# import math as m
+
+# print(dir(m))
+
+# from math import sqrt
+#from math import * (for all functions)
+
+# print(sqrt(25))
+
+
+# 3) User defined
+# def sum(a , b):
+#     print(a + b)
+
+# sum(45,67)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
  
 
