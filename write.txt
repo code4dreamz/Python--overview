@@ -1,0 +1,3 @@
+Hie Navvv ~~~~~~~ we have created a file for you using write operation in python
+
+Appending data
