@@ -306,25 +306,62 @@
 #     case _:
 #         print('NO MATCH FOUNDD ~~~~~~~~~~~~~~~default case')
 
+#----------------------infinite while loop
+
+# while(True):
+#     num=int(input("Enter a number : "))
+#     print(num)
+#     if num==0:
+#         break
+
+# print('program is finish executing')
 
 
+#-----------exception handling ---------------------------
+
+# a = int(input('Enter your number : '))
+
+# print(a+3)
+
+# try :
+#     a = int(input('Enter your number : '))
+#     print(a+3)
+# except Exception as e :
+#     print("Some error occcured ....," , e)
 
 
+# -------------------------file handling
+
+#writing to a file
+# s = "Code with harryyyy testing---------------"
+# with open("testing.txt" , "w") as f:
+#     f.write(s)
+
+#reading to a file
+# with open("intro.py" , "r") as f:
+#     t = f.read()
+#     print(t)
 
 
+#adding data to a existing file 
+
+# d = "\n Navv are you ready to go for implementing some projects?"
+# with open("testing.txt" , "a") as f:
+#     f.write(d)
 
 
+#-------------------------OOPS-----------------------------
+# class ~ kind of a template using which we can create objects
 
+# class Employe:
+#     def __init__(self , name , salary):  #constructor function
+#         self.name = name
+#         self.salary = salary
+#     def getSalary(self):
+#         return self.salary
 
-
-
-
-
-
-
-
-    
- 
+# x = Employe( 'harry' , 50000)
+# print(x.salary)
 
 
 
