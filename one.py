@@ -52,5 +52,8 @@
 #     f.write("Appending ")
 
 
+# with open("crash.txt" , "a") as f:
+#     f.write("\n Navv lets start todays session")
 
-
+with open("crash.txt" , "r") as f:
+    print(f.read())
