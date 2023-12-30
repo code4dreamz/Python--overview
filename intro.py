@@ -363,6 +363,29 @@
 # x = Employe( 'harry' , 50000)
 # print(x.salary)
 
+#----------------------------------------------------Reference TELUSKO YOUTUBE CHANNEL--------------------------------------
+
+# test = int(input('Enter a number : '))
+# for i in range(2,test):
+#     if test%2==0:
+#         print(" Not a Prime number")
+#         break
+# else:
+#     print("Prime number")
+
+# import array 
+# from array import*
+
+
+# x = array( "i" , [])
+# x = []
+
+# n = int(input('Enter the lenth of array : '))
+# for i in range(n):
+#     t=int(input('Enter value : '))
+#     x.append(t)
+# print(x)
+
 
 
 
