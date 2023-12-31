@@ -386,8 +386,61 @@
 #     x.append(t)
 # print(x)
 
+#------------OOPS
 
 
+# ----------------------class , methods , and object ------------------
+# class Computer:
+#     def config(self):
+#         print(" i5 , 16gb , 1tb")
+
+# --------creating objects----------
+# com1 = Computer()
+# com2 = Computer()
+
+# ---------calling an object
+# Computer.config(com1)
+
+# com1.config()  #~~~~~~ using ojbect to call a method inside a class
+
+
+# ----------------- _init_ method ----------------------
+# class Computer:
+#     def __init__(self , cpu , ram):   # called automatically
+#         self.x = cpu
+#         self.y = ram
+
+#     def config(self):
+        
+#         print("Config is " , self.x , self.y)
+
+# com1 = Computer("i5" , 16)
+# com2 = Computer('i10' , 30)
+
+# com1.config()
+
+
+# ------------ understanding self and constructor
+
+# class Userdata:
+#     def __init__(self):
+#         self.name= "Nav"
+#         self.age = 22
+
+#         print("Get lost")
+
+#     def update(self):
+#         self.name="Noor"
+    
+
+
+# one = Userdata()
+# two = Userdata()
+
+# two.update()
+
+# print(one.name)
+# print(two.name)
 
 
 
