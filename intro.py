@@ -444,6 +444,70 @@
 
 
 
+#---------------------------------inheritance------------------------------
+
+
+#----------single level inheritance
+# class A :   #super class
+#     def feature1(self):
+#         print("Feature 1 working")
+
+#     def feature2(self):
+#         print("Feature 2 working")
+# class B(A) :  #sub class  #class B is inheriting all the features of class A
+#     def feature3(self):
+#         print("Feature 3 working")
+
+#     def feature4(self):
+#         print("Feature 4 working")
+    
+# a1 = A()
+# a1.feature1()
+# a1.feature2()
+
+# b1 =B()
+
+# # b1.feature1()
+# try:
+#     b1.feature1()
+# except Exception as e :
+#     print("Please create a subclass to access the features of other class" , e)
+# finally:
+#     print("Program is finished")
+
+#Types :
+    
+# Single level inheritance ~ superclass A > subclass B(A)
+
+#multi-level inheritance ~ super class A > subclass B(A) > subclass C(B)
+    
+#Multiple inhertiance ~ super class A , subclass B , subclass C (A,B)
+
+
+
+
+#-----------------------------polymorphism-------------------
+
+# poly ~ many
+# morph ism ~ forms
+
+# objects will have multiple forms
+
+# Ways to implement polyformism
+# 1) Duck typing
+# 2) Operator overloading
+# 3)  Method overloading
+# 4) Method Overriding
+
+
+
+
+
+
+
+
+
+
 
 
 
