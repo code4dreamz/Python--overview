@@ -499,7 +499,40 @@
 # 3)  Method overloading
 # 4) Method Overriding
 
+#----------------------------------Reference W3School website --------------------------------------
 
+
+# using format to concate strings with integer without typecasting/coversion
+# value = 100
+# Result = "The result is {}"
+# print(Result.format(value))
+
+#------Lmbda function---------
+# A lambda function is a small anonymous function.
+# A lambda function can take any number of arguments, but can only have one expression.
+
+# x = lambda a, b : a * b
+# print(x(5, 6))
+
+
+#Creating own module and using them by importing the file
+    
+# import defined #here defined is a user defined module which contains a function called greet()
+# defined.greet()
+
+
+#----------------recursion --------------------
+#function calling iself
+# x = int(input('enter a number : '))
+# def fact(x): 
+   
+#     if x == 0: 
+#         return 1
+
+#     return x * fact(x-1) 
+   
+# result= fact(x)
+# print(result)
 
 
 
